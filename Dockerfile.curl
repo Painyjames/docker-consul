@@ -1,4 +1,4 @@
 FROM consul:latest
 MAINTAINER Victor Arbues <victorarbuesmallada@gmail.com>
 
-RUN apk add --no-cache curl
+RUN apk add --no-cache curl iptables
